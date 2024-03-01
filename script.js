@@ -1,6 +1,14 @@
-function handleEvent(event) {
-    var element = document.body;
-    element.classList.toggle("dark");   
+function OS() {
+    // var element = document.body;
+    // element.
 }
 
-document.getElementById("default").addEventListener(handleEvent);
+function dark() {
+    var element = document.body;
+    element.classList.add("dark");
+}
+
+function light() {
+    var element = document.body;
+    element.classList.remove("dark");
+}
