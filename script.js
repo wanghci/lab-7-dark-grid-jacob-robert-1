@@ -1,4 +1,6 @@
-function myFunction() {
+function handleEvent(event) {
     var element = document.body;
-    element.classList.toggle("dark");
- }
+    element.classList.toggle("dark");   
+}
+
+document.getElementById("default").addEventListener(handleEvent);
